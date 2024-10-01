@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ 
+:root{
+    --fonte-primaria: "Bebas Neue", sans-serif;
+}
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+ 
+nav{
+    background-color: #7bb8e0;
+    padding: 30px;
+    text-align: center;
+}
+ 
+nav a {
+    margin: 0 30px;
+    font-family: var(--fonte-primaria);
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+ 
+body{
+    background-color: #f2f3f7;
+}
+ 
+.titulo{
+    position: relative;
+    top: 30px;
+    left: 730px;
+    font-size: 30px;
+    color: #7bb7e0;
+    font-family: var(--fonte-primaria);
+ 
+}
+ 
+.formulario{
+    position: relative;
+    left: 570px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #ffff;
+    border: 1px solid #7bb7e0;
+    padding: 40px;
+    width: 300px;
+    height: 355px;
+ 
+    border-radius: 15px 0 0;
+    box-shadow: 10px 10px #7bb7e0;
+ 
+}
+.formulario label{
+    font-weight: 600;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    color: #7bb7e0;
+}
+ 
+.formulario input[type ="text"]{
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: #7bb8e0;
+    padding: 10px 12px;
+ 
+ 
+}
+ 
+.formulario input[type ="text"]:hover{
+    background-color: #a1c5de;
+}
+.formulario input[type ="text"]:focus{
+    background-color: #a1c5de;
+}
+ 
+.lancar [type="submit"]{
+    font-size: 15px;
+    background-color: #7bb7e0;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border-color: #ffff;
+    border-radius: 0.5px solid white;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.ver_nota h2{
+    font-family: var(--font-primaria);
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    color: #7bb7e0 ;
+}
+ 
+.ver_notas_tabela{
+    margin: 0 auto;/* Para centralizar a tabela dentro do seu container */
+    width: 80%;
+    border-collapse: collapse;
+    font-family: var(--font-primaria);
+    background-color: #7bb7e0;
+}
+ 
+.ver_notas_tabela th, .ver_notas_tabela td{
+    border: 1px solid white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+ 
+.ver_notas_tabela th {
+    background-color: #7bb8e0;
+    font-weight: 600;
+    color: white;
+}
+ 
+.ver_notas_tabela td {
+    background-color: #7bb7e0;
+}
+ 
+.ver_notas_tabela tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+ 
+.ver_notas_tabela tr:hover {
+    background-color:  #7bb8e0;
+}
+
+.ver_notas_tabela th, 
+.ver_notas_tabela td {
+    color: white; /* Define a cor do texto como branco */
+}
+ 
+.link_aluno{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+ 
+.link_aluno:hover{
+    border-radius: 10px;
+    animation-name: cor_link;
+    animation-duration: 1s;
+    background-color: #fdecdc;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="/static/styles/estilo.css">
+</head>
+<body>
+ 
+    <nav>
+        <a href="/">Lançar IMC</a>
+        <a href="/ver_imc">Ver o IMC</a>
+    </nav>
+ 
+    <div class="titulo">
+        <h2>IMC</h2>
+    </div>
+ 
+    <div class="formulario">
+        <form action="/" method="post" class="notas_formulario">
+            <label class="nome_aluno_1" for="">Nome:</label>
+            <input class="nome_aluno_2" required type="text" name="nome" id="nome"><br>
+ 
+            <label for="">Altura:</label>
+            <input required type="text" name="altura" id="altura"><br>
+ 
+            <label for="">Peso:</label>
+            <input required type="text" name="peso" id="peso"><br>
+       
+            <div class="lancar">
+                <button type="submit" class="lançar_notas">Lançar</button>
+            </div>
+        </form>
+    </div>
+ 
+</body>
+</html>

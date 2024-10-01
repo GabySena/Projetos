@@ -1,0 +1,5 @@
+oseias;99.0;1.79;30.9
+Gaby;60.0;1.63;22.58
+Gaby;60.0;1.63;22.58;Peso normal
+oseias;99.0;1.79;30.9;Obesidade
+Edvone;78.0;1.54;32.89;Obesidade
